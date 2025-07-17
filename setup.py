@@ -19,6 +19,7 @@ setup(
     entry_points={
         # make the scripts available as command line scripts
         "console_scripts": [
+            "geqmd-run = geqmd.scripts.md_model:main",
         ]
     },
     install_requires=[
